@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62%;
+
+}
+body,h1,h2,ul{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.menu ul{
+    list-style: none;
+}
+.arkaplan{
+    background-color:#A7A6AC;
+}
+
+.kapsayici{
+    width: 960px;
+    margin: 0 auto;
+}
+.ust{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+.ust .logo{
+    text-align: center;
+    color: #EFEEEC;
+}
+.ust .logo h1{
+    font-size: 4rem;
+    letter-spacing: .4rem;
+
+}
+.ust .logo h2{
+    font-size: 2rem;
+
+}
+
+.ust .menu ul{
+    display: flex;
+
+}
+.ust .menu ul li{
+    margin: 0 1rem;
+}
+.ust .menu ul a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2rem;
+    padding:0 5px;
+}
+.ust .menu ul a:hover{
+    color:#FFA500 ;
+}
+.orta .bolum1{
+    margin-top: 2rem;/* 1rem 10px degerindedir*/
+}
+.orta .bolum2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.orta .bolum2 .kutu{
+    flex-basis: 290px;
+}
+.orta .bolum2 .kutu h2{
+    font-size: 1.5rem;
+
+}
+.orta .bolum3{
+    display: flex;
+    justify-content:space-between ;
+    gap: 30px;/* araya bosluk koymak için kullanılır*/
+}
+.orta .bolum3 h1{
+    font-size: 2rem;
+}
+.orta .bolum3 p{
+    font-size: 1.5rem;
+}
+.czg{
+    border-top: solid 1px #8AC2C7;
+    margin: 10px 0 ;
+}
+.alt{
+    padding: 20px 0;
+    margin-top:20px  ;
+    display: flex;
+    gap: 20px;
+    
+}
+.alt .baglanti{
+    flex-grow: 1;
+}
+.alt .baglanti li{
+    border-bottom: dotted 1px #8AC2C7;
+    list-style: none;
+    margin: 5px 0;
+}
+.alt .baglanti a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #eeedf4;
+}
